@@ -22,3 +22,24 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+/* Task-03 - оформлення галереї */
+.gallery {
+  display: flex;
+  flex-wrap: wrap
+}
+
+.item_img{
+  list-style-type: none;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: #c2c0c0;
+}
+
+.pictures {
+  width: 250px;
+  padding: 5px;
+}
